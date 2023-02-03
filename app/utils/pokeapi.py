@@ -13,7 +13,7 @@ def get_pokemon_stats(api_id):
     """
         Get pokemon stats from the API pokeapi
     """
-    return False
+    return get_pokemon_data(api_id)['stats']
 
 def get_pokemon_data(api_id):
     """
