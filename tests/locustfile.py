@@ -3,7 +3,7 @@ import random
 
 class PokemonUser(HttpUser):
     wait_time = between(1, 5)
-    
+    #
     @task
     def fight_pokemon(self):
         id_pokemon_1 = random.randint(1, 1008)
